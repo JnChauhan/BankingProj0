@@ -13,7 +13,6 @@ namespace NBankingProject0._1._0
 
        public  static void UserOptions()
         {
-            
             try
             {
                 int selection = 0;
@@ -416,7 +415,7 @@ namespace NBankingProject0._1._0
             if (account != null)
             {
                 string transactSel;
-                Console.WriteLine(MessageForTransIn(account.Balance));
+                Console.Write(MessageForTransIn(account.Balance));
                 transactSel = Console.ReadLine().ToLower();
                 switch (transactSel)
                 {
@@ -563,7 +562,7 @@ namespace NBankingProject0._1._0
                     if (fromAcc != null && toAcc != null)
                     {
                         TransferAmountInput(ref amount);
-                        if (amount != 0)
+                        if (amount !<= 0)
                         {
                             TransferInAccount(fromAcc, toAcc, amount);
                         }
@@ -633,7 +632,11 @@ namespace NBankingProject0._1._0
                 double amount;
                 Console.Write("\n\tEnter Amount you want to Deposit: $");
                 amount = Convert.ToDouble(Console.ReadLine());
-                account.AddBalance(amount);
+                if (AmountPositive(amount))
+                {
+                    account.AddBalance(amount);
+                }
+                
             }
             catch (FormatException ex)
             {
@@ -653,7 +656,10 @@ namespace NBankingProject0._1._0
                 double amount;
                 Console.Write("\n\tEnter Amount you want to Withdraw: $");
                 amount = Convert.ToDouble(Console.ReadLine());
-                account.WithdrawAmount(amount);
+                if (AmountPositive(amount))
+                {
+                    account.WithdrawAmount(amount);
+                }
             }
             catch (FormatException ex)
             {
@@ -672,7 +678,11 @@ namespace NBankingProject0._1._0
                 double amount;
                 Console.Write("\n\tEnter Amount you want to Deposit: $");
                 amount = Convert.ToDouble(Console.ReadLine());
-                account.AddBalance(amount);
+                if (AmountPositive(amount))
+                {
+                    account.AddBalance(amount);
+                }
+
             }
             catch (FormatException ex)
             {
@@ -690,7 +700,11 @@ namespace NBankingProject0._1._0
                 double amount;
                 Console.Write("\n\tEnter Amount you want to Withdraw: $");
                 amount = Convert.ToDouble(Console.ReadLine());
-                account.WithdrawAmount(amount);
+                
+                if (AmountPositive(amount))
+                {
+                    account.WithdrawAmount(amount);
+                }
             }
             catch (FormatException ex)
             {
@@ -700,6 +714,17 @@ namespace NBankingProject0._1._0
             {
                 Console.WriteLine(" Something Went wrong.\n " + ex.Message + "\n-----Redirecting-----");
             }
+        }
+        static bool AmountPositive(double amount)
+        {
+            bool okToProceed = true;
+            if(amount < 0)
+            {
+                Console.WriteLine("\tAmount Should be positive");
+                Console.WriteLine("-----Redirecting-----");
+                okToProceed = false;
+            }
+            return okToProceed;
         }
 
         static void DisplayAccountsInfo()

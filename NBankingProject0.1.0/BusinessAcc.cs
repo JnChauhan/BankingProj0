@@ -85,7 +85,7 @@ namespace NBankingProject0._1._0
         public override bool OkToClose()
         {
             bool toClose;
-            if (Balance == 0 || OverdraftAmount == 0 && IsActive)
+            if (Balance == 0 && OverdraftAmount == 0 && IsActive)
             {
                 toClose = true;
             }

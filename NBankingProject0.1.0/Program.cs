@@ -10,10 +10,6 @@ namespace NBankingProject0._1._0
         static void Main(string[] args)
         {
             ListOfMenu.UserOptions();
-            
-
-        }
-        
-        
+        }        
     }
 }
