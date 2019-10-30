@@ -1,0 +1,11 @@
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.exe
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.deps.json
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.runtimeconfig.json
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.runtimeconfig.dev.json
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.dll
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\bin\Debug\netcoreapp3.0\NBankingProject0.1.0.pdb
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\obj\Debug\netcoreapp3.0\NBankingProject0.1.0.csprojAssemblyReference.cache
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\obj\Debug\netcoreapp3.0\NBankingProject0.1.0.AssemblyInfoInputs.cache
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\obj\Debug\netcoreapp3.0\NBankingProject0.1.0.AssemblyInfo.cs
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\obj\Debug\netcoreapp3.0\NBankingProject0.1.0.dll
+C:\Users\jatin\OneDrive\Documents\Revature\Training\Project Banking 010\NBankingProject0.1.0\NBankingProject0.1.0\obj\Debug\netcoreapp3.0\NBankingProject0.1.0.pdb
